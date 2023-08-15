@@ -391,10 +391,7 @@ gallery.slider {
 /*review*/
 
 
-.review .heading h3{
-    font-size: 4rem;
-    
-}
+
 .review .heading h3 span {
     color: var(--pref-color);
 }
@@ -402,8 +399,6 @@ gallery.slider {
 .review {
     height: 100vh;
 }
-
-
 
 
 .review .review-slider{
@@ -465,7 +460,9 @@ gallery.slider {
  /* CONTACT */
 
 
-
+ .contact .heading{
+    margin-bottom: 8rem;
+ }
 
  .contact .row {
     display: flex;
@@ -539,7 +536,7 @@ gallery.slider {
     left: 0;
     right: 0;
     z-index: 1000;
-    margin-top: 10rem;
+    margin-top: 30rem;
  }
 
  .footer .box-container {
@@ -663,10 +660,6 @@ gallery.slider {
     html {
         font-size: 50%;       
     }
-
-   
-
     
-         
 
 }
