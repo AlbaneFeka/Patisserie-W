@@ -16,7 +16,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    transition: 2.s linear;
+    transition: .2s linear;
 }
 
 html {
@@ -390,9 +390,6 @@ gallery.slider {
 
 /*review*/
 
-.review {
-    margin-bottom: -17rem;
-}
 
 .review .heading h3{
     font-size: 4rem;
@@ -405,6 +402,8 @@ gallery.slider {
 .review {
     height: 100vh;
 }
+
+
 
 
 .review .review-slider{
@@ -465,14 +464,8 @@ gallery.slider {
 
  /* CONTACT */
 
- .contact .heading{
-    margin-bottom: 7rem;
 
- }
 
- .contact {
-    margin-top: 30rem;
-}
 
  .contact .row {
     display: flex;
@@ -611,18 +604,10 @@ gallery.slider {
     section {
         padding: 2rem;
     }
-
-    .contact {
-        margin-top: 20rem;
+ 
     }
 
-    
 
-    
- 
-
-
-}
 
 
 @media (max-width: 768px) {
