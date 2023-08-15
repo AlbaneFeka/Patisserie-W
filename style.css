@@ -470,6 +470,10 @@ gallery.slider {
 
  }
 
+ .contact {
+    margin-top: 20rem;
+}
+
  .contact .row {
     display: flex;
     background-color: var(--bg);
@@ -593,18 +597,9 @@ gallery.slider {
 
 
 
-
-
-
-
-
-
-
-
-
 /*Media queries*/
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 
     html {
         font-size: 55%;       
@@ -616,6 +611,16 @@ gallery.slider {
     section {
         padding: 2rem;
     }
+
+    .contact {
+        margin-top: 20rem;
+    }
+
+    
+
+    
+ 
+
 
 }
 
@@ -663,17 +668,20 @@ gallery.slider {
     font-size: 1.5rem;
    }
 
+  
+
+
 }
 
-@media (max-width: 450px) {
+@media (max-width: 576px) {
 
     html {
         font-size: 50%;       
     }
 
-    .contact {
-        margin-top: 30rem;
-    }
+   
+
+    
          
 
 }
