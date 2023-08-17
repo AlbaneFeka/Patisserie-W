@@ -342,7 +342,7 @@ gallery.slider {
 }
 .slide-track {
     display: flex;
-    width: calc(250px*24);
+    width: calc(250px*27);
     animation: scroll 40s linear infinite;
 
 }
