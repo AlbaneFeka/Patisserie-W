@@ -323,8 +323,8 @@ section {
 
 /* GALLERY */
 
-gallery.slider {
-    height: 100vh;
+.gallery.slider {
+    
     display: grid;
     place-items: center;
 }
