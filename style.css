@@ -386,76 +386,7 @@ gallery.slider {
     color: var(--pref-color);
 }
 
-/*REVIEW*/
 
-/*review*/
-
-
-
-.review .heading h3 span {
-    color: var(--pref-color);
-}
-
-.review {
-    height: 100vh;
-}
-
-
-.review .review-slider{
-    display: grid;	
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 70px;
-}
-
-
- .review .review-slider .boxx{
-
-    text-align: center;
-    position: relative;
-    z-index: 0;
-    padding: 2rem;
- }
-
- .review .review-slider .boxx img{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    margin-bottom: .7rem;
- }
-
- .review .review-slider .boxx .stars{
-    padding: .5rem;
-    font-size: 2rem;
-
- }
-
- .icon {
-    
-    color: rgb(214, 165, 74);
- }
-
- .review .review-slider .boxx p{
-    font-size: 1.6rem;
-    color:var(--light-color);
-    padding: 1rem 0;
-    line-height: 1.8;
- }
-
- .review .review-slider .boxx h3 {
-    font-size: 2.2rem;
-    color:var(--black);
-    line-height: 1.8;
- }
-
- .review .review-slider .boxx span{
-    font-size: 1.5rem;
-    color: #d3ad7f;
-    
- }
 
  /* CONTACT */
 
@@ -523,6 +454,77 @@ gallery.slider {
     border-bottom: 1px solid #3b3b3b;
     
 
+ }
+
+ /*REVIEW*/
+
+/*review*/
+
+
+
+.review .heading h3 span {
+    color: var(--pref-color);
+}
+
+.review {
+    height: 100vh;
+}
+
+
+.review .review-s{
+    display: grid;	
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+ .review .review-s .bo-x{
+
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    padding: 2rem;
+ }
+
+ .review .review-s .bo-x img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-bottom: .7rem;
+ }
+
+ .review .review-s .bo-x .stars{
+    padding: .5rem;
+    font-size: 2rem;
+
+ }
+
+ .icon {
+    
+    color: rgb(214, 165, 74);
+ }
+
+ .review .review-s .bo-x p{
+    font-size: 1.6rem;
+    color:var(--light-color);
+    padding: 1rem 0;
+    line-height: 1.8;
+ }
+
+ .review .review-s .bo-x h3 {
+    font-size: 2.2rem;
+    color:var(--black);
+    line-height: 1.8;
+ }
+
+ .review .review-s .bo-x span{
+    font-size: 1.5rem;
+    color: #d3ad7f;
+    
  }
 
 
