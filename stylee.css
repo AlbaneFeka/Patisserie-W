@@ -159,8 +159,8 @@ section {
 .header .cart-items-container {
     position: absolute;
     top: 100%;
-    right: -100%;
-    height: calc(100vh - 9.5rem);
+    right: 30px;
+    height: calc(100vh - 8.8rem);
     width: 35rem;
     background: #fff;
     padding: 0 1.5rem;
