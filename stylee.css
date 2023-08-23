@@ -160,7 +160,7 @@ section {
     position: absolute;
     top: 100%;
     right: -100%;
-    height: calc(100vh - 8.8rem);
+    height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
     padding: 0 1.5rem;
@@ -297,7 +297,6 @@ section {
     color: var(--black);
     font-size: 2rem;
     padding: 1rem 0;
-    
 }
 
 .menu .box-container .box .price{
@@ -314,7 +313,6 @@ section {
 
 .menu .box-container .box:hover {
     background: #E9D5D8;
-    
 }
 
 .menu .box-container .box:hover > * {
@@ -458,6 +456,12 @@ section {
 
 /*review*/
 
+
+
+.review .heading h3 span {
+    color: var(--pref-color);
+}
+
 .review {
     height: 100vh;
 }
@@ -465,7 +469,7 @@ section {
 
 .review .review-s{
     display: grid;	
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 2rem;
     align-items: flex-start;
@@ -653,6 +657,16 @@ section {
 
     html {
         font-size: 50%;       
+    }
+
+    .review .review-s{
+        display: grid;	
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr; 
+        gap: 2rem;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 70px;
     }
     
 
